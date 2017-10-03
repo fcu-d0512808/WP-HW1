@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>表單</title>
+  </head>
+  <body>
+    <h1>使用者註冊</h1>
+    <br>
+    <form>
+<p>帳號
+    <input type="text" name="username"  placeholder="請輸入你的帳號">
+</p>
+<p>密碼
+    <input type="password" name="password" >
+</p>
+<p>E-mail
+    <input type="text" name="email"  placeholder="請輸入你的E-mail">
+</p>
+<p>生日
+    <input type="datetime" name="birthday"  placeholder="年/月/日">
+</p>
+<p>性別
+
+    <input type="radio" name="sex">男生
+      <input type="radio" name="sex">女生
+
+        <input type="radio" name="sex">其他
+
+
+</p>
+<p>喜好
+    <input type="checkbox" name="thinglike_ball">打球
+      <input type="checkbox" name="thinglike_game">打電動
+        <input type="checkbox" name="thinglike_shop">購物
+          <input type="checkbox" name="thinglike_other">其他
+</p>
+<p>年級
+  <select name="grade">
+  <option value="grade_1">大一</option>
+  <option value="grade_2">大二</option>
+    <option value="grade_3">大三</option>
+      <option value="grade_other">大四</option>
+</select>
+</p>
+  <input type="button" name="submit" value="送出">
+  <input type="reset"  value="重設">
+</form>
+  </body>
+
+</html>
